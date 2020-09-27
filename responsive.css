@@ -1,0 +1,402 @@
+
+/*header*/
+header{
+	height: 60px;
+	background-color: white;
+  width: 100%;
+  top: 0em;
+}
+
+.opened{
+	display: flex;
+}
+
+.door{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 12px;
+}
+
+.btn2,.btn4{
+  margin: 0 8px;
+  color: rgb(116, 110, 110);
+  font-weight: bolder;
+}
+
+.start{
+	background-color: red;
+	border-radius: 3px;
+	color: white;
+	border: none;
+	width: 90px;
+	height: 35px;
+	margin-right: 1.5em;
+} 
+/*header END*/
+
+/*補足*/
+.main-image{
+  display: none;
+}
+/*補足 END*/
+
+.responsive-all{
+  display: block;
+  height: 900px;
+  width: 100%;
+}
+
+.responsive{
+  background-image: url('main_45126663-2000x1238.jpg');
+  background-size: cover;
+  height: 300px;
+  padding-top: 1px;
+  margin-top: 60px;
+}
+
+.responsive h1{
+  color: rgb(24, 18, 214);
+  font-family: monospace;
+  font-size: 3.5em;
+}
+
+.responsive h2{
+  float: left;
+}
+
+.responsive2{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.responsive2 p{
+  font-weight: bold;
+  margin-top: 2em;
+}
+
+.basho2,.select-1,.select-2{
+  border: 1px solid #5f5f5f;
+  border-radius: 5px;
+}
+
+.kakaku{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.responsive2 button{
+  background-color: red;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  height: 3em;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.select-1{
+  width: 60%;
+}
+
+.select-2{
+  width: 37.5%;
+}
+
+/*sentence-1*/
+.sentence-1{
+  display: flex;
+  flex-direction: column;
+  margin-top: none;
+}
+
+.host,.trouble{
+  width: 75%;
+  margin: 0 auto;
+}
+
+.trouble{
+  margin-top: 2em;
+}
+
+.host{
+  margin-top: 0em;
+}
+
+/*sentence-1 END*/
+
+
+
+
+/*sentence-2*/
+  h1.second{
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .sentence-2{
+    display: flex;
+    flex-direction: column;   
+  }
+
+  .free,.hosting,.baka{
+    width: 70%;
+    margin: 0 auto;  
+  }
+
+  .hosting,.baka{
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+/*sentence-2 END*/
+
+
+
+
+
+/*sentence-3*/
+  .sentence-3{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 2em;
+  }
+
+  .mother{
+    margin-top: 1em;
+  }
+
+  .father{
+    margin: 1.5em 8px;
+  }
+
+  .father p{
+    font-size: 20px;
+    width: 100%;
+  }
+/*sentence-3 END*/
+
+
+
+
+
+/*senence-4*/
+  h1.fourth{
+    font-size: 40px;
+  }
+
+  .safe{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #left,#right{
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  #right{
+    margin-top: 2em;
+    position: center;
+  }
+
+  #god{
+    justify-content: center;
+    margin: 0 auto;
+  }
+/*sentence-4 END*/
+
+
+
+
+
+
+/*sentence-5*/
+  h1.fifth{
+    font-size: 40px;
+  }
+
+  .plus{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .charge,.cheap,.fast{
+    margin: 0 auto;
+    width: 75%;
+    margin-bottom: 1.5em;
+  }
+/*sentence-5 END*/
+
+
+
+
+
+/*sentence-6*/
+  .sentence-6{
+    display: flex;
+    flex-direction: column;
+    margin-top: none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 7em;
+  }
+
+  .tinkasu{
+    font-size: 20px;
+  }
+
+  .picture,.topic{
+    margin: 0 auto;
+  }
+
+  .topic{
+    width: 75%;
+    margin-top: 1em;
+  }
+
+  #takuya{
+    font-size: 25px;
+  }
+
+  .naoya{
+    font-size: 20px;
+  }
+/*sentence-6 END*/
+
+
+
+
+
+
+
+/*sentence-7*/
+  h1.takato{
+    font-size: 40px;
+  }
+
+  .sentence-7{
+    display: flex;
+    flex-direction: column;
+  }
+/*sentence-7 END*/
+
+
+
+
+
+
+
+
+/*sentence-8*/
+  h1.eight{
+    font-size: 40px;
+  }
+
+  .sentence-8{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .kumura,.kobayasi{
+    margin: 0 auto;
+  }
+/*sentence-8 END*/
+
+
+
+
+
+/*sentence-9*/
+  h1.ninth{
+    font-size: 40px;
+  }
+
+  .sentence-9{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .baseball{
+    border-bottom: solid 1px rgb(196, 192, 192);
+		font-size: 18px;
+    padding-bottom: 1em;
+    border-width: 100%;
+  }
+
+  .sentence-9 li{
+    font-size: 18px;
+  }
+/*sentence-9 END*/
+
+
+/*sentence-10*/
+  .sentence-10{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card{
+    display: inline;
+    width: 85%;
+    height: 93px;
+    margin: 1em auto;
+    padding: 5px;
+  }
+
+ .card-img{
+    max-width: 130px;
+    max-height: 80px;
+  }
+
+  .card-title{
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .card-text{
+    font-size: 13px;
+  }
+
+  .card-img,.card-content{
+    float: left;
+  }
+
+  #wrapper {
+    width:100%;
+    overflow:hidden;
+  }
+/*sentence-10 END*/
+
+/*sentence-11*/
+  .footer{
+    margin-right: none;
+  }
+
+  .later{
+    max-width: 85%;
+    margin: 4em auto;
+    margin-bottom: 2em;
+  }
+  
+  .increase{
+    font-size: 250%;
+    margin-left: none;
+  }
+/*sentence-11 END*/
+
+/*sentence-12*/
+  .previous{ 
+    flex-direction: column;
+  }
+
+  .information{
+    border-bottom: solid 1px rgb(211, 205, 205);
+  }
+
+  .back{
+    flex-direction: column;
+    border-top: none;
+    padding-left: 5px;
+  }
+/*sentence-12* END/

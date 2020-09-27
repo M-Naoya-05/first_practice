@@ -1,0 +1,537 @@
+.responsive-all{
+	display: none;
+}
+
+header{
+	height: 60px;
+	background-color: white;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+}
+
+.opened{
+	display: flex;
+}
+
+.door{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 12px;
+}
+
+.btn2,.btn4{
+	margin: 0 8px;
+	color: rgb(119, 117, 117);
+    font-weight: bolder;	
+}
+
+.start{
+	background-color: red;
+	border-radius: 3px;
+	color: white;
+	border: none;
+	width: 90px;
+	height: 35px;
+	margin-right: 1.5em;
+} 
+/*header END*/
+
+#wrapper {
+    width:100%;
+    overflow:hidden;
+  }
+
+.main-image{
+	background-image: url('main_45126663-2000x1238.jpg');
+	background-size: cover;
+	height: 600px;
+	float: 2em;
+	background-repeat: no-repeat;
+}
+
+.main-form p{
+	font-weight: bold;
+}
+
+.main-form{
+	background-color: white;
+	width: 400px;
+	padding: 30px;
+	border-radius: 6px;
+	position: static;
+	margin-top: 8em;
+	margin-right: 1em;
+	float: right;
+}
+
+.main-form h2{
+	font-size: 40px;
+	margin: 0;
+	font-weight: bolder;
+}
+
+.main-form button{
+	width: 98%;
+	font-size: 1.5em;
+	color: white;
+	background-color: red;
+	padding: 5px;
+	font-weight: bold;
+	border: none;
+	border-radius: 8px;
+}
+
+.basho input{
+	width: 98%;
+	height: 40px;
+}
+ 
+.select-1{
+	width: 65%;
+	height: 40px;
+}
+ 
+.select-2{
+	width: 33%;
+	height: 40px;
+}
+ 
+.kakaku{
+	font-size: 30px;
+	font-weight: bold;
+}
+ 
+.kakaku2{
+	font-size: 12px;
+}
+
+.unnko{
+	color: rgb(233, 148, 173);
+}
+/*本文ここから*/
+.sentence-1{
+	display: flex;
+	margin-top: 5em;
+	justify-content: center;
+}
+
+
+.host{
+	margin-right: 3em;
+	width: 400px;
+	text-align: justify;
+}
+
+.trouble{
+	margin-left: 3em;
+	width: 400px;
+	text-align: justify;
+}
+
+.sentence-1 h4{
+	font-weight: bold;
+	margin-bottom: 1em;
+}
+
+hr{
+	height: 2px;
+	background-color: rgb(71, 67, 67);
+	width: 10%;
+}
+/*sentence-2*/
+.sentence-2{
+	display: flex;
+	justify-content: center;
+}
+
+h1.second{
+	text-align: center;
+	font-size: 4em;
+	font-weight: bold;
+}
+
+.sentence-2{
+	margin-top: 4em;
+}
+
+.free,.hosting,.baka{
+	text-align: justify;
+	margin: 20px;
+	width: 350px;
+}
+
+.sentence-2 h4 {
+	font-weight: bold;
+	margin-top: 5px;
+}
+/*sentence-2 END*/
+/*sentence-3*/
+.sentence-3{
+	display: flex;
+	justify-content: center;
+}
+
+.father,.mother{
+	text-align: center;
+	font-weight:350px;
+	margin: 20px;
+}
+
+.father{
+	padding: 3em;
+	font-size: 30px;
+	text-align: justify;
+	text-justify: auto;
+}
+
+.tinkasu{
+	color: rgb(235, 118, 8);
+}
+
+#Dennis{
+	font-size: 17px;
+	text-align: left;
+}
+
+.mother{
+	margin-top: 7em;
+	height: 12em;
+	size: 5em;
+}
+/*sentence-3 END*/
+/*sentence-4*/
+h1.fourth{
+	text-align: center;
+	font-size: 4em;
+	font-weight: bold;
+}
+.safe{
+	display: flex;
+	justify-content: center;
+	margin-top: 4em;
+}
+
+#right{
+	text-align: center;
+	width: 5em;
+}
+#left{
+	text-align: left;
+	width: 25em;
+	text-justify: auto;	
+	line-height: 2em;
+}
+
+ul{
+	list-style: none;
+}
+
+li{
+	line-height: 3em;
+}
+
+#god li:before{
+	font-family: FontAwesome;
+	content: '';
+	color: rgb(77, 149, 182);
+	margin-right: 1em;
+}
+
+#stayhome{
+	margin-top: 4em;
+	text-align: center;
+	margin-bottom: 10em;
+}
+/*sentence-4 END*/
+/*sentence-5*/
+	.fifth{
+		text-align: center;
+	    font-size: 4em;
+	    font-weight: bold;
+	}
+	
+	.plus{
+		display: flex;
+		justify-content: center;
+		margin-top: 2em;
+	}
+
+	.charge,.cheap,.fast{
+		text-align: justify;
+		margin: 20px;
+		width: 350px;
+		line-height: 2em;
+	}
+
+	.naoya{
+		font-weight: bold;
+		color: rgb(88, 86, 86);
+		margin-bottom: 1em;
+	}
+/*sentence-5 END*/
+/*sentence-6*/
+	.sentence-6{
+		display: flex;
+		text-align: center;
+		justify-content: center;
+		margin-left: 8em;
+		margin-right: 8em;
+		margin-bottom: 8em;
+	}
+
+	.picture,.topic{
+		text-align: center;
+		font-weight: 350px;
+		margin-bottom: 20px;
+	}
+
+	.picture{
+		margin-top: 6em;
+	}
+
+	.topic{
+		margin-top: 6em;
+		text-align: justify;
+		text-justify: auto;
+		margin-left: 3em;
+	}
+
+	#takuya{
+		font-size: 35px;
+		font-weight: 50px;
+	}
+
+	#naoya{
+		font-size: 17px;
+		text-align: left;
+		font-weight: lighter;
+		font-weight: normal;
+	}
+
+	.tinkasu{
+		font-size: 30px;
+	}
+/*sentence-6 END*/
+/*sentence-7*/
+	h1.takato{
+		text-align: center;
+		font-size: 4em;
+		font-weight: bold;
+	}
+
+	.sentence-7{
+		display: flex;
+		text-align: center;
+		justify-content: center;
+		margin: 3em;
+		margin-bottom: 8em;
+	}
+
+	.boke,.kasu,.aho{
+		text-align: center;
+		margin: 1em;	
+	}
+
+	.kawabata{
+		font-size: 3.8em;
+		justify-content: space-between;
+		margin: 0em 1.5em 0em 1.5em;
+		font-weight: 35px;
+	}
+/*sentence-7 END*/
+/*sentence-8*/
+h1.eight{
+	text-align: center;
+	font-weight: bold;
+	font-size: 4em;
+}
+
+.sentence-8{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 8em;
+	
+}	
+
+.kumura,.kobayasi{
+	width: 445px;
+	text-align: justify;
+}
+
+.matubara{
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 1em;
+	margin-top: 2em;
+}
+
+.kumura{
+	margin-right: 3em;
+}
+
+.kobayasi{
+	margin-left: 3em;
+}
+.shine{
+	line-height: 28px;
+}
+/*sentence-8 END*/
+/*sentence-9*/
+	h1.ninth{
+		text-align: center;
+		font-weight: bold;
+		font-size: 4em;
+	}
+
+	.sentence-9{
+		display: flex;
+		justify-content: center;
+		margin-bottom: 3em;
+	}
+
+	.sentence-9 ul{
+		margin: none auto;
+		list-style-position: inside;
+		font-size: 1.5em;
+	}
+
+	.sentence-9 li{
+		margin: 0;
+		padding: 15px;
+		border-bottom: 1px solid rgb(189, 187, 187);
+		font-size: 19px;
+	}
+/*sentence-9 END*/
+/*sentence-10*/
+	.sentence-10 a:hover{
+		text-decoration: none;
+		z-index: 2;
+	}
+
+	h4.tenth{
+		margin-left: 5em;
+		font-weight: bold;
+	}
+	.sentence-10{
+		display: flex;
+		justify-content: center;
+	}
+
+	.card {
+		width: 350px;
+		background: #fff;
+		border-radius: 5px;
+		box-shadow: 0 2px 5px #ccc;
+		margin-left: 2em;
+		margin-right: 2em;
+	  }
+	
+	.card-img {
+		border-radius: 5px 5px 0 0;
+		max-width: 100%;
+		height: auto;
+	  }
+
+	  .card-content {
+		padding: 20px;
+	  }
+
+	  .card-title {
+		font-size: 20px;
+		margin-bottom: 20px;
+		color: #333;
+	  }
+
+	  .card-text{
+		color: #777;
+		font-size: 14px;
+		line-height: 1.5;
+	  }
+/*sentence-10 END*/
+/*sentence-11*/
+	.later{
+		background-image: url('landscape-666927__480.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 70em;
+		height: 25em;
+		margin: 4em auto;
+		margin-bottom: 2em;	
+	}
+
+	.increase{
+		color: white;
+		font-size: 4em;
+		font-weight: bold
+	}
+
+	.button1{
+		border-radius: 5px;
+		text-align: center;
+		width: 12em;
+		height: 3em;
+		border: none;
+	}
+
+	.sub{
+		margin-top: 4em;
+		margin-left: 6em;
+		float: left;
+	}
+/*sentence-11 END*/
+/*footer*/
+
+	.footer{
+		background-color: rgba(238, 232, 232, 0.938);
+	}
+
+	.previous{
+		font-size: smaller;
+		display: flex;
+		justify-content: center;
+		padding-top: 2em;
+		margin-bottom: none;
+		border-top: solid rgb(196, 190, 190); 
+	}
+
+	.eiko{
+		font-weight: bold;
+		margin-bottom: 5em;
+	}
+
+	.information{
+		margin-right: 3em;
+        margin-left: 2em;
+	}
+
+	#tatsurou{
+		color: black;
+		line-height: 3em;
+	}
+
+	.mine{
+		line-height: 20px;
+		font-size: 13px;
+	}
+
+	.yours{
+		font-size: 13px;
+		margin-top: 5px;
+		justify-content: space-around;
+	}
+	
+	.back{
+		display: flex;
+		justify-content: space-between;
+		width: 70%;
+		margin: 0 auto;
+		border-top: solid  rgb(196, 190, 190);
+	}
+
+	#tatsuya{
+		color: black;
+	}
+/*footer END*/
+
+/*本文ここまで*/
